@@ -15,6 +15,8 @@ while game_running:
         player_x -= 1
     elif move == "right":
         player_x += 1
+    elif move == "q":
+        print("see you next time!")
     else:
         print("Invalid move! Try again.")
         continue
