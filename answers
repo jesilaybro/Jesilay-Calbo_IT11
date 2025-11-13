@@ -5,3 +5,16 @@
 3. I typed "cd tmp", and when I entered "pwd" again, the output was "/tmp"
 
 4. It is a markdown file and it has 3 sections. The preview is my repository name and description. The code section is also my file name and description then the blame section is the commits and edits I did.
+
+diff --git a/Calbo.py b/Calbo.py
+index 78ae903..77704ea 100644
+--- a/Calbo.py
++++ b/Calbo.py
+@@ -3,6 +3,7 @@ player_macho = 0
+ treasure_x = 15
+ treasure_y = 3
+ game_running = True
++print("Welcome to Calbo's Maze!")
+ print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
+ while game_running:
+     move = input("Enter move (up/down/left/right): ").lower()
