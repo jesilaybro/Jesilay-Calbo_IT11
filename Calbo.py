@@ -4,6 +4,11 @@ treasure_x = 15
 treasure_y = 3
 game_running = True
 print("Welcome to Calbo's Maze!")
+print("""Instructions:
+"up" to go up by 1 y-level
+"down" to go down by 1 y-level
+"right" to go up by 1 x-level
+"left to go down by 1 x-level""")
 print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 while game_running:
     move = input("Enter move (up/down/left/right): ").lower()
