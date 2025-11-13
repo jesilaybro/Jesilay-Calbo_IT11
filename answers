@@ -18,3 +18,43 @@ index 78ae903..77704ea 100644
  print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
  while game_running:
      move = input("Enter move (up/down/left/right): ").lower()
+
+diff --git a/Calbo.py b/Calbo.py
+index 78ae903..77704ea 100644
+--- a/Calbo.py
++++ b/Calbo.py
+@@ -3,6 +3,7 @@ player_macho = 0
+ treasure_x = 15
+ treasure_y = 3
+ game_running = True
++print("Welcome to Calbo's Maze!")
+ print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
+ while game_running:
+     move = input("Enter move (up/down/left/right): ").lower()
+diff --git a/answers b/answers
+deleted file mode 100644
+index ee5a4c5..0000000
+--- a/answers
++++ /dev/null
+@@ -1,20 +0,0 @@
+-1. They set the parameters for Git, such as naming the default branch as "main" and using NotePad as Git's default editor.
+-
+-2. The command line is fast and efficient as it does not really have any fancy user interfaces that may serve as a hindrance. It also gives programmers more control and flexibility.
+-
+-3. I typed "cd tmp", and when I entered "pwd" again, the output was "/tmp"
+-
+-4. It is a markdown file and it has 3 sections. The preview is my repository name and description. The code section is also my file name and description then the blame section is the commits and edits I did.
+-
+-diff --git a/Calbo.py b/Calbo.py
+-index 78ae903..77704ea 100644
+---- a/Calbo.py
+-+++ b/Calbo.py
+-@@ -3,6 +3,7 @@ player_macho = 0
+- treasure_x = 15
+- treasure_y = 3
+- game_running = True
+-+print("Welcome to Calbo's Maze!")
+- print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
+- while game_running:
+-     move = input("Enter move (up/down/left/right): ").lower()
+\ No newline at end of file
