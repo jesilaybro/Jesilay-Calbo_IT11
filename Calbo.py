@@ -3,6 +3,7 @@ player_macho = 0
 treasure_x = 15
 treasure_y = 3
 game_running = True
+print("Welcome to Calbo's Maze!")
 print(f"Find the treasure at ({treasure_x}, {treasure_y})!")
 while game_running:
     move = input("Enter move (up/down/left/right): ").lower()
