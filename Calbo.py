@@ -14,13 +14,13 @@ while game_running:
     move = input("Enter move (up/down/left/right): ").lower()
 
     if move == "up":
-        player_y += 1
+        player_ley += 1
     elif move == "down":
-        player_y -= 1
+        player_ley -= 1
     elif move == "left":
-        player_x -= 1
+        player_macho -= 1
     elif move == "right":
-        player_x += 1
+        player_macho += 1
     elif move == "q":
         print("see you next time!")
     else:
